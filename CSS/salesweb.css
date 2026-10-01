@@ -1,0 +1,385 @@
+
+*{
+    font-family: sans-serif;
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+nav{
+
+    background-image: url(../IMAGE/Men\ Knit\ Crew\ Neck\ Urban\ Short\ Sleeve\ Regular\ T-Shirts\,\ Pack\ Of\ Multiple\ Tees\,\ Boyfriend\ Gift\,\ Everyday\ Wear\,\ Minimalist.jfif);
+    /* border-bottom: 2px solid black; */
+    /* background-color: rgb(74, 69, 69); */
+    display: flex;
+    justify-items: center;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    padding-top: 50px;
+    padding-right: 10px;
+    padding-left: 20px;
+    
+
+}
+
+
+
+
+
+
+.toplinks{
+
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    margin: 10px;
+    padding-top: 150px;
+    font-size: 15px;
+    text-decoration: none;
+
+    
+
+}
+
+
+
+
+
+.tla a{
+     color: white;
+     padding: 10px;
+     background-color: grey;
+     border-radius: 7px;
+     text-decoration: none;
+
+     
+}
+
+.tla a:hover{
+    background-color: rgba(128, 128, 128, 0.578);
+}
+
+.tlb a{
+    color: white;
+    padding: 10px;
+    background-color: green;
+    border-radius: 7px;
+    text-decoration: none;
+
+
+}
+
+.tlb a:hover{
+    background-color: rgba(0, 128, 0, 0.427);
+}
+
+.tlc a{
+    color: white;
+    padding: 10px;
+    background-color: blue;
+    border-radius: 7px;
+    text-decoration: none;
+
+}
+
+.tlc a:hover{
+    background-color: rgba(0, 0, 255, 0.614);
+}
+
+.tld a{
+    color: white;
+    padding: 10px;
+    background-color: red;
+    border-radius: 7px;
+    text-decoration: none;
+
+
+}
+
+.tld a:hover{
+    background-color: rgba(255, 0, 0, 0.68);
+}
+
+
+
+.toplinks a:hover{
+    transition: 500ms all ease;
+    cursor: pointer;
+    border-bottom: 3px solid black ;
+}
+
+
+.header h1 img{
+    
+    border-radius: 100px;
+    width: 200px;
+    height: 200px;
+    padding-top: 0px;
+    padding-bottom: 5px;
+    border: 10px solid white; 
+
+}
+
+
+.header h2{
+    color: red;
+    font-size: 100px;
+    font-family: cursive;
+    padding-top: 90px;
+
+}
+
+.header h2 span{
+    color: white;
+    font-size: 30px;
+
+}
+
+
+.collection{
+    border-top: 1px double black;
+    color: red;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 5px;
+    
+    
+}
+
+/* END OF HEADING */
+
+.what{
+
+    font-size:20px;
+    font-family: cursive;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+
+
+/* THE IMAGE SALES BOX CODE BEGINS FROM HERE*/
+
+.hero{
+
+    /* background-color: yellow; */
+    display: flex;
+    border: 2px ;
+    margin-top: 100px;
+    padding: 10px 10px ;
+    align-items: center;
+    flex-direction: column;
+    width: fit-content;
+    border-radius: 40px;  
+    padding: 10px;
+    margin: 20px;
+}
+
+.hero .saleshead h3{
+    color: red;
+    font-size: 20px;
+    border: 1px  ;
+    border-radius: 20px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+.hero .imagedescribtion p{
+    color: white;
+    font-family: cursive;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.92);
+    font-weight: 100px;
+}
+
+.hero .product img{
+    border-radius: 50px;
+    height: 500px;
+
+}
+
+
+.hero .productname h2{
+    font-size: 20px;
+    background-color: white;
+    padding: 10px;
+    margin: 10px;
+    padding-left: 0px;
+    border-radius: 10px;
+}
+
+
+.hero .productname h2 span{
+    background-color: rgba(14, 14, 14, 0.779);
+    border-radius: 5px;
+    padding: 5px;
+    margin: 10px;
+    padding-left: 2px;
+}
+
+.hero .price h2{
+    font-size: 30px;
+    background-color: white;
+    /* height: 0px; */
+    padding: 10px;
+    margin: 10px;
+    padding-left: 10px;
+    border-radius: 10px;
+    
+}
+
+.hero .price h2 span{
+    background-color: rgba(14, 14, 14, 0.813);
+    border-radius: 5px;
+    border-left-width: 5px;
+    padding-left: 2px;
+}
+
+.hero .action h4 button{
+
+    color: white;
+    background-color: red;
+    font-size: 20px;
+    border: 1px ;
+    border-radius: 10px;
+    padding: 10px;
+    transition: 1000ms all ease;    
+}
+
+.hero .action h4 button:hover{
+
+    cursor: pointer;
+    background-color: green;
+}
+
+
+/* i duplicated the same code twice but changed the images */
+
+                            /* now */
+
+/* full combination of all three content display code begins*/
+
+.parentcontainer{
+    background-image: url(../IMAGE/NG.jpg);
+    /* background-color: rgba(0, 0, 0, 0.906); */
+        /* background-image: url(../IMAGE/Men\ Knit\ Crew\ Neck\ Urban\ Short\ Sleeve\ Regular\ T-Shirts\,\ Pack\ Of\ Multiple\ Tees\,\ Boyfriend\ Gift\,\ Everyday\ Wear\,\ Minimalist.jfif); */
+
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px 0px 20px 0px;
+    border-radius: 0px;
+}
+
+.proceed{
+    border-top: 1px solid black;
+    font-size: 12px;
+    font-family: cursive;
+    margin: 40px 10px 10px 20px;
+    padding: 10px ;
+    
+    
+}
+
+.lastbtn {
+    border: none;
+    margin: 20px;
+        
+}
+
+
+.lastbtn button{
+    color: white;
+    font-size: 20px;
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    cursor: pointer;
+    transition: 1000ms all ease;
+
+}
+
+.lastbtn button:hover{
+    cursor: pointer;
+    background-color: green;
+}
+
+.join{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    align-items: center;
+}
+
+.join a{
+    color:black;
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.799);
+    padding: 5px 10px 10px 5px;
+    text-decoration: none;
+    transition: 500ms all ease;
+}
+
+.join a:hover{
+    background-color: green;
+    border-bottom: 3px solid black ;
+    
+}
+
+
+
+
+
+.lastline{
+    font-size: 12px;
+    display: flex;
+    justify-items: center;
+    gap: 50px;
+    padding-left: 20px;
+    margin-top: 20px;
+    
+    
+}
+
+.lastline .policy a{
+    color:  black;
+    border-bottom-color: black;
+    border-radius: 3px;
+    text-decoration: none ;
+}
+
+.lastline .terms a{
+    color:black;
+    border-bottom-color: black;
+    border-radius: 3px;
+    text-decoration: none ;
+
+}
+
+.lastline .help a{
+    color: black;
+    border-bottom-color: black;
+    border-radius: 3px;
+    text-decoration: none ;
+
+}
+
+p{
+    color:  black;
+    font-size: 10px;
+    margin-top: 10px;
+    margin-left: 20px;
+}
+
+
+.lastsectionbody{
+
+    background-image: url(../IMAGE/pinterest\ 1.webp);
+    
+
+}

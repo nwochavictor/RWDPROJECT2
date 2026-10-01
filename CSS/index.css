@@ -1,0 +1,104 @@
+*{
+       
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+nav{
+    /* background-image: url('../IMAGE/nr.jpg');  */
+    border-bottom: 2px solid rgb(0, 0, 0);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px 10px 30px;
+    background-color: white;
+    margin-bottom: 50px;
+}
+
+
+.toplinks a{
+    text-decoration: none;
+    color: grey;
+    font-size: 13px;
+    padding-bottom: 5px;
+    border-bottom: 1px solid transparent;
+    transition: 1000ms all ease; 
+}
+
+
+.toplinks{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+}
+
+.toplinks a:hover{
+    color: black;
+    border-bottom: 1px solid black;
+
+}
+
+
+/* END OF NAV */
+
+.hero{
+
+    /* background-color: rgb(12, 75, 6); */
+    display: flex;
+    /* border: 1px solid black; */
+    padding: 30px 20px 10px 30px;
+
+}
+
+
+.writeup{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.writeup h1{
+    font-size: 46px;
+    margin-bottom: 100px;
+}
+
+
+.writeup .text1{
+    width: 70%;
+    line-height: 30px;
+    margin-bottom: 60px;
+
+}
+
+
+.writeup h1 span{
+    text-transform: lowercase;
+    color: rgb(172, 96, 244);
+}
+
+
+.image img{
+    width: 400px;
+    height: 500px;
+    border-radius: 30px;
+}
+
+.writeup .btn{
+    width: fit-content;
+    text-transform: capitalize;
+    border: none;
+    padding: 20px 25px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    transition: 1000ms all ease;
+
+}
+
+.writeup .btn:hover{
+    cursor: pointer;
+    background-color: tomato;
+}

@@ -1,0 +1,27 @@
+.standtext{
+    border: 3px solid green;
+    text-decoration: none;
+
+}
+
+ul {
+    border: 3px solid green;
+    color: red;
+    text-decoration: underline;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.headside{
+    color: aqua;
+    border: 3px solid green;
+    display: flex;
+}
+
+
+a{
+    border: 3px solid green;
+    display: flex;
+    gap: 20px;
+}
